@@ -1,25 +1,25 @@
-# Metamodel Pointer — Reference Model
-# Auto-generated from OpenDEAM v0.2.1 (dea-architecture-framework, ADR-0002).
+# Metamodel Pointer — Blueprint
+# Auto-generated from OpenDEAM v0.4.0 (dea-architecture-framework, ADR-0004).
 # Do not edit manually — allocation changes go through the root model
 # (structural: ADR + minor bump; additive: PR + patch bump).
 metamodel:
-  version: v0.2.1
-  entity_id: dea:entity-reference-model
-  class_alias: RM
+  version: v0.4.0
+  entity_id: dea:entity-blueprint
+  class_alias: BLU
   layer: L2
   building_block: L2-reusable-knowledge
-  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=RM"
+  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=BLU"
 
 catalog:
-  name: Reference Model
-  repo: technehub-labs/dea-catalog-reference-models
+  name: Blueprint
+  repo: technehub-labs/dea-catalog-blueprints
   status: planned
 
 description: |
-  A reference architecture model providing a reusable template for solution design.
+  A composed, reusable target-state design assembled from Architecture Patterns, providing a template for solution design. Renamed from Reference Model in v0.4.0 (ADR-0004 D5).
 
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: "https://technehub-labs.github.io/metamodel/?entity=RM"
-  github: https://github.com/technehub-labs/dea-catalog-reference-models
+  viewer: "https://technehub-labs.github.io/metamodel/?entity=BLU"
+  github: https://github.com/technehub-labs/dea-catalog-blueprints
